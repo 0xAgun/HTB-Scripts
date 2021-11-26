@@ -5,7 +5,7 @@ import urllib.parse
 
 while True:
     filename = input("enter file name > ")
-    main_url = "http://10.10.11.100/tracker_diRbPr00f314.php"
+    main_url = "http://MACHINE_IP/tracker_diRbPr00f314.php"
 
     headers = {
         "X-Requested-With": "XMLHttpRequest",
